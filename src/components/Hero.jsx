@@ -35,7 +35,7 @@ const Hero = ({ darkMode }) => {
         data-aos-delay="250"
         className="body-font z-10"
       >
-        <div className="container mx-auto flex px-4 sm:px-8 lg:px-14 py-12 lg:py-32 flex-col lg:flex-row items-center justify-between lg:mt-0 mt-14">
+        <div className="container mx-auto flex px-4 sm:px-8 lg:px-14 py-12 lg:py-14 flex-col lg:flex-row items-center justify-between lg:mt-14 mt-14">
           <div className="lg:w-1/2 w-full flex flex-col items-center lg:items-start text-center lg:text-left mb-12 lg:mb-0">
             <div className="flex justify-center lg:justify-start gap-4 sm:gap-6 mb-6 sm:mb-7 w-full">
               {socialIcons.map((social, index) => (
@@ -114,7 +114,7 @@ const Hero = ({ darkMode }) => {
             data-aos-delay="400"
           >
             <div className="relative w-4/5 sm:w-3/4 lg:w-full">
-              <div className="relative overflow-hidden">
+              <div className="relative overflow-hidden pt-1">
                 <img
                   src={Avatar}
                   alt="Hero Image"
