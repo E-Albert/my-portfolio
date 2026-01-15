@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -40,6 +41,7 @@ function App() {
       <Hero darkMode={darkMode} />
       <About darkMode={darkMode} />
       <Skills darkMode={darkMode} />
+      <Projects darkMode={darkMode} />
     </div>
   );
 }
