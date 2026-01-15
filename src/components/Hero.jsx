@@ -2,7 +2,7 @@ import linkedIn from "../assets/linkedIn.png";
 import github from "../assets/github.png";
 import CV from "../assets/Emerson_ResumeDEV 2.pdf";
 import { DownloadIcon, Mail } from "lucide-react";
-import Avatar from "../assets/CartoonDev.png"
+import Avatar from "../assets/CartoonDevPic.png"
 
 const Hero = ({ darkMode }) => {
   const socialIcons = [
