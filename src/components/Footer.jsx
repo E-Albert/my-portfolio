@@ -32,7 +32,8 @@ const Footer = ({ darkMode }) => {
           </div>
           <div className="flex gap-4">
             <a
-              href="#"
+              href="https://github.com/E-Albert"
+              target="_blank"
               className="w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all
     hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white
     bg-[#374151] dark:bg-[#f3f4f6]
@@ -41,7 +42,8 @@ const Footer = ({ darkMode }) => {
               <FaGithub />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/emerson-albert/"
+              target="_blank"
               className="w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all
     hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white
     bg-[#374151] dark:bg-[#f3f4f6]
