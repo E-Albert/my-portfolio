@@ -6,8 +6,12 @@ import Avatar from "../assets/CartoonDevPic.png"
 
 const Hero = ({ darkMode }) => {
   const socialIcons = [
-    { icon: github, alt: "github" },
-    { icon: linkedIn, alt: "linkedIn" },
+    { icon: github, alt: "github", src: "https://github.com/E-Albert" },
+    {
+      icon: linkedIn,
+      alt: "linkedIn",
+      src: "https://www.linkedin.com/in/emerson-albert/",
+    },
   ];
 
   const darkTheme = {
@@ -41,7 +45,7 @@ const Hero = ({ darkMode }) => {
               {socialIcons.map((social, index) => (
                 <a
                   key={index}
-                  href="#"
+                  href={social.src}
                   target="_blank"
                   data-aos-delay={`${400 + index * 100}`}
                   className="transform hover:scale-110 transition-transform duration-300"
