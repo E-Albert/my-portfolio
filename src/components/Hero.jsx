@@ -65,7 +65,7 @@ const Hero = ({ darkMode }) => {
               data-aos="fade-up"
               data-aos-delay="500"
             >
-              Hi, I’m Emerson — Software Engineer
+              Hi, I’m Emerson. Software Engineer.
             </h1>
 
             <p
