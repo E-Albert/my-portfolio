@@ -26,7 +26,7 @@ const Contact = ({ darkMode }) => {
                 color: "transparent",
               }}
             >
-              Touch
+              {" "}Touch
             </span>
           </h2>
           <p
