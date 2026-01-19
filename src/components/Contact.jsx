@@ -51,6 +51,8 @@ const Contact = ({ darkMode }) => {
           </div>
 
           <form
+            action={"https://formspree.io/f/mlggbraw"}
+            method="POST"
             style={{
               background: darkMode
                 ? "linear-gradient(to right, #1f2937, #111827)"
@@ -65,6 +67,7 @@ shadow-lg order-1 lg:order-2"
               {/* First Name */}
               <input
                 type="text"
+                name="firstName"
                 placeholder="First Name"
                 style={{
                   backgroundColor: darkMode ? "#374151" : "#faede3",
@@ -80,6 +83,7 @@ focus:ring-orange-500/20 transition-all"
               {/* Last Name */}
               <input
                 type="text"
+                name="lastName"
                 placeholder="Last Name"
                 style={{
                   backgroundColor: darkMode ? "#374151" : "#faede3",
@@ -96,6 +100,7 @@ focus:ring-orange-500/20 transition-all"
             {/* Email Address */}
             <input
               type="email"
+              name="email"
               placeholder="Email Address"
               style={{
                 backgroundColor: darkMode ? "#374151" : "#faede3",
@@ -111,6 +116,7 @@ focus:ring-orange-500/20 transition-all mb-3 sm:mb-4"
             {/* Telephone Number */}
             <input
               type="tel"
+              name="phoneNumber"
               placeholder="Phone Number"
               style={{
                 backgroundColor: darkMode ? "#374151" : "#faede3",
@@ -125,6 +131,7 @@ focus:ring-orange-500/20 transition-all mb-3 sm:mb-4"
             />
             {/* Message */}
             <textarea
+              name="message"
               rows="4"
               placeholder="Your Message"
               style={{
