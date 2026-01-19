@@ -35,7 +35,7 @@ const Contact = ({ darkMode }) => {
               color: darkMode ? "#d1d5db" : "#6b7280",
             }}
           >
-            Let's discuss your project
+            Open to new opportunities and conversations.
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-10 items-center">
