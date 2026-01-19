@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaHeart } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = ({ darkMode }) => {
     
@@ -27,7 +27,7 @@ const Footer = ({ darkMode }) => {
                 color: darkMode ? "#9ca3af" : "#6b7280",
               }}
             >
-              Full Stack Developer & UI/UX Designer
+              Software Engineer building reliable, scalable software
             </p>
           </div>
           <div className="flex gap-4">
@@ -54,10 +54,7 @@ const Footer = ({ darkMode }) => {
           </div>
           <div className="text-center md:text-right">
             <p className="text-sm flex items-center justify-end gap-1 text-[#6b7280] dark:text-[#9ca3af]">
-              © {currentYear} Made with
-              <FaHeart className="text-red-500" />
-              by
-              <span className="mt-1 text-[#f97316]">OualiCode</span>
+              © {currentYear} built by Emerson Albert
             </p>
           </div>
         </div>
