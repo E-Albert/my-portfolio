@@ -65,7 +65,7 @@ const Hero = ({ darkMode }) => {
               data-aos="fade-up"
               data-aos-delay="500"
             >
-              Hi, I'm Emerson
+              Hi, I’m Emerson — Software Engineer
             </h1>
 
             <p
@@ -73,9 +73,10 @@ const Hero = ({ darkMode }) => {
               data-aos="fade-up"
               data-aos-delay="600"
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
-              et harum dolorem sit minus illo nostrum? Tempore, nobis.
-              Recusandae neque exercitationem voluptates tempore tempora sequi
+              I build scalable software across web, mobile, and interactive
+              systems. My primary experience is with React and
+              Java, and I enjoy designing clean, adaptable
+              solutions that grow with real-world needs.
             </p>
             {/* Buttons */}
             <div className="w-full pt-4 sm:pt-6">
