@@ -52,7 +52,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         <div className="flex items-center justify-between w-full space-x-6 lg:space-x-8">
           {/*Logo*/}
           <motion.a
-            href="/"
+            href={import.meta.env.BASE_URL}
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-2"
           >
@@ -193,7 +193,8 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                 href="#contact"
                 onClick={() => setIsMenuOpen(false)}
                 whileTap={{ scale: 0.95 }}
-              className={`block py-3 px-4 text-center font-semibold rounded-lg bg-linear-to-r ${colors.button} text-white shadow-md`}>
+                className={`block py-3 px-4 text-center font-semibold rounded-lg bg-linear-to-r ${colors.button} text-white shadow-md`}
+              >
                 Hire Me
               </motion.a>
             </div>
