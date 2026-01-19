@@ -1,23 +1,23 @@
-import ThinkingAvatar from "../assets/CartoonDevThinking.png"
+import ThinkingAvatar from "../assets/CartoonDevThinking.png";
 
 const About = ({ darkMode }) => {
   return (
     <section
       id="about"
-      className={`min-h-screen overflow-hidden flex items-center justify-center px-4 sm:px-6`}
+      className="min-h-screen overflow-hidden flex items-center justify-center px-4 sm:px-6"
     >
-      <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+      <div className="max-w-5xl xl:max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
         <figure
           data-aos="fade-up"
           data-aos-delay="300"
           className="flex flex-wrap justify-center gap-4 relative order-2 lg:order-1"
         >
-          <div className="relative w-75 h-75 lg:w-96 lg:h-96">
+          <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-96 lg:h-96">
             {/* Image */}
             <div
-              className="absolute -inset-6 lg:-inset-20 bg-linear-to-l
-  from-[#f97316] via-[#fb923c] to-[#f59e0b]
-  rotate-12 star-shape z-0"
+              className="absolute -inset-6 md:-inset-10 lg:-inset-20 bg-linear-to-l
+from-[#f97316] via-[#fb923c] to-[#f59e0b]
+rotate-12 star-shape z-0"
               data-aos="zoom-in"
               data-aos-delay="600"
             ></div>
@@ -31,15 +31,16 @@ const About = ({ darkMode }) => {
             />
           </div>
         </figure>
+
         <article
           data-aos="fade-left"
           data-aos-delay="300"
-          className="text-center lg:text-left relative order-1 lg:order-2"
+          className="text-center lg:text-left relative order-1 lg:order-2 max-w-xl mx-auto lg:mx-0"
         >
           <header>
             <h1
               className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6
-      text-transparent bg-linear-to-r from-orange-400 to-orange-600 bg-clip-text"
+text-transparent bg-linear-to-r from-orange-400 to-orange-600 bg-clip-text text-center"
               data-aos="fade-up"
               data-aos-delay="400"
             >
@@ -48,83 +49,75 @@ const About = ({ darkMode }) => {
           </header>
 
           <p
-            className={`text-sm sm:text-base lg:text-lg xl:text-xl mb-6 sm:mb-8 leading-relaxed
-  bg-linear-to-r from-orange-900/10 to-orange-900/5
-  p-4 sm:p-6 rounded-xl sm:rounded-2xl
-  backdrop-blur-sm
-  ${darkMode ? "text-gray-300" : "text-gray-700"}`}
+            className={`text-xs sm:text-sm lg:text-base xl:text-lg mb-4 sm:mb-5 leading-relaxed
+bg-linear-to-r from-orange-900/10 to-orange-900/5
+p-4 sm:p-6 rounded-xl sm:rounded-2xl
+backdrop-blur-sm
+${darkMode ? "text-gray-300" : "text-gray-700"}`}
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
-            suscipit expedita blanditiis temporibus nostrum nulla fugit
-            consequuntur! Ullam earum perspiciatis sit ea, asperiores dolorum
-            illum temporibus quidem? Iusto, officia mollitia!
+            I’m a software engineer with a strong builder mindset, focused on
+            creating well-structured, adaptable software. I primarily work with
+            React and Java, and I enjoy designing systems that balance clarity,
+            scalability, and maintainability.
           </p>
-          <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">
-            {/* Education */}
+
+          <p
+            className={`text-xs sm:text-sm lg:text-base xl:text-lg mb-6 sm:mb-8 leading-relaxed
+bg-linear-to-r from-orange-900/10 to-orange-900/5
+p-4 sm:p-6 rounded-xl sm:rounded-2xl
+backdrop-blur-sm
+${darkMode ? "text-gray-300" : "text-gray-700"}`}
+            data-aos="fade-up"
+            data-aos-delay="550"
+          >
+            What drives me is the process of bringing ideas to life through
+            code. I like thinking through the problem, choosing the right tools,
+            and refining solutions as requirements evolve. I value
+            collaboration, continuous learning, and building software that holds
+            up beyond its first version.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
             <div
-              className="text-center"
               data-aos="zoom-in"
               data-aos-delay="600"
+              className="text-center"
             >
-              <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400">
-                5+
+              <div className="text-lg sm:text-xl lg:text-2xl font-semibold text-orange-400">
+                Builder Mindset
               </div>
-              <div
-                className={`text-xs sm:text-sm lg:text-base ${
-                  darkMode ? "text-gray-300" : "text-gray-600"
-                }`}
-              >
-                Education
+              <div className={darkMode ? "text-gray-300" : "text-gray-600"}>
+                Turning ideas into working software
               </div>
             </div>
-            {/* Years Experience */}
+
             <div
-              className="text-center"
               data-aos="zoom-in"
               data-aos-delay="650"
+              className="text-center"
             >
-              <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400">
-                10+
+              <div className="text-lg sm:text-xl lg:text-2xl font-semibold text-orange-400">
+                Systems Thinking
               </div>
-              <div
-                className={`text-xs sm:text-sm lg:text-base ${
-                  darkMode ? "text-gray-300" : "text-gray-600"
-                }`}
-              >
-                Years Experience
+              <div className={darkMode ? "text-gray-300" : "text-gray-600"}>
+                Structure, scalability, maintainability
               </div>
             </div>
-            {/* Projects Completed */}
+
             <div
-              className="text-center"
+              className="sm:col-span-2 lg:col-span-2 flex flex-col items-center text-center"
               data-aos="zoom-in"
               data-aos-delay="700"
             >
-              <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400">
-                100+
+              <div className="text-lg sm:text-xl lg:text-2xl font-semibold text-orange-400">
+                Continuous Learning
               </div>
-              <div
-                className={`text-xs sm:text-sm lg:text-base ${
-                  darkMode ? "text-gray-300" : "text-gray-600"
-                }`}
-              >
-                Projects Completed
+              <div className={darkMode ? "text-gray-300" : "text-gray-600"}>
+                Adapting tools to solve real problems
               </div>
             </div>
-            <button
-              className={`w-full sm:w-auto border-2 border-orange-500 inline-flex items-center
-  justify-center py-2 px-4 sm:px-6
-  hover:shadow-[0_0_40px_rgb(255,165,0,0.7)]
-  rounded-full text-base sm:text-lg font-semibold
-  transition-all duration-300 transform
-  ${darkMode ? "text-white bg-orange-500/10" : "text-gray-800 bg-white/90"}`}
-              data-aos="fade-up"
-              data-aos-delay="800"
-            >
-              Learn More
-            </button>
           </div>
         </article>
       </div>
@@ -132,5 +125,4 @@ const About = ({ darkMode }) => {
   );
 };
 
-
-export default About
+export default About;
