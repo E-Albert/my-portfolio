@@ -1,16 +1,32 @@
-import React from "react";
 import ReactIcon from "../assets/reactIcon.png";
+import awsLogo from "../assets/awsCloudLogo.png";
+import blenderLogo from "../assets/blenderLogo.png";
+import cssLogo from "../assets/cssLogo.png";
+import dockerLogo from "../assets/dockerLogo.png";
+import htmlLogo from "../assets/htmlLogo.png";
+import javascriptLogo from "../assets/javascriptLogo.png";
+import javaLogo from "../assets/javaLogo.png";
+import mysqlLogo from "../assets/mysqlLogo.png";
+import postgresLogo from "../assets/postgresLogo.png";
+import springbootLogo from "../assets/springbootLogo.png";
+import tailwindLogo from "../assets/tailwindLogo.png";
+import unityLogo from "../assets/unityLogo.png";
 
 const Skills = ({ darkMode }) => {
   const skills = [
     { name: "React", icon: ReactIcon },
-    { name: "Java", icon: ReactIcon },
-    { name: "Spring Boot", icon: ReactIcon },
-    { name: "JavaScript", icon: ReactIcon },
-    { name: "HTML / CSS", icon: ReactIcon },
-    { name: "Git", icon: ReactIcon },
-    { name: "MySQL", icon: ReactIcon },
-    { name: "REST APIs", icon: ReactIcon },
+    { name: "Java", icon: javaLogo },
+    { name: "Spring Boot", icon: springbootLogo },
+    { name: "JavaScript", icon: javascriptLogo },
+    { name: "HTML", icon: htmlLogo },
+    { name: "CSS", icon: cssLogo },
+    { name: "Tailwind", icon: tailwindLogo },
+    { name: "MySQL", icon: mysqlLogo },
+    { name: "Postgres", icon: postgresLogo },
+    { name: "AWS", icon: awsLogo },
+    { name: "Docker", icon: dockerLogo },
+    { name: "Unity", icon: unityLogo },
+    // { name: "Blender", icon: blenderLogo },
   ];
 
   return (
